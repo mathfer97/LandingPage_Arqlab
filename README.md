@@ -1,3 +1,6 @@
+Link do site: https://lp-arqlab.netlify.app/
+Link da planilha de e-mails: https://docs.google.com/spreadsheets/d/1pZEsujzo-HukPzOo9mPt8QSbB11TyQpm2d97ESWdeMA/edit?usp=sharing
+
 🏛️ Landing Page – ArqLab
 
 A proposta deste projeto foi desenvolver uma Landing Page institucional para uma empresa fictícia de arquitetura, com foco na captação de leads. A página apresenta um design limpo e objetivo, estruturado para destacar credibilidade, experiência e facilitar o contato com potenciais clientes.
