@@ -1,0 +1,102 @@
+:root{
+    --gray: #303030;
+    --offwhite: #f9f9f9;
+    font-size: 10px;
+    letter-spacing: 0.13rem;
+    font-family: Inter;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#topo{
+    background-color: var(--gray);
+    padding: 10rem;
+    color: var(--offwhite);
+}
+
+h1{
+    font-size: 4rem;
+}
+
+#topo h2{
+    padding-top: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+
+#info{
+    padding: 5rem;
+    background-color: var(--offwhite);
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textoinformativo{
+    margin: 0rem 10rem;
+    font-size: 1.5rem;
+}
+
+.textoinformativo span{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+#sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 7rem 17rem;
+}
+
+#sobre #textosobre{
+    max-width: 700px;
+}
+
+#sobre #textosobre h2{
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+#sobre #textosobre p{
+    font-size: 1.7rem;
+    max-width: 600px;
+    padding-top: 4rem;
+}
+
+#contato form{
+    background-color: var(--gray);
+    font-size: 2rem;
+    padding: 8rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#contato input{
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+#contato button{
+    background-color: #C07212;
+    color: white;
+    padding: 1.2rem 4rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#contato button:hover{
+    transform: scale(1.1);
+}
